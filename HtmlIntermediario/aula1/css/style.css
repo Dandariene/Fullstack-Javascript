@@ -15,6 +15,25 @@ body{
     font-size: 40px;
 }
 
-.content{
+.container{
     display: flex;
+}
+
+.navbar{
+    width: 30%;
+    background: #a3a3a3;
+    padding: 30px;
+}
+
+.content{
+    width: 70%;
+    background: #d3d3d3;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer{
+    background: gray;
+    text-align: center;
+    padding: 20px 0;
 }
