@@ -1,0 +1,15 @@
+/* Combinadores(combinators): Quando combino classes, id ou tags para aplicar 
+uma única regra */
+
+.exemplo1 .red{
+    color: red;
+}
+
+.margin{
+    margin: 50px;
+}
+
+/* Essa regra funciona também para classes que receberão as mesmas regras */
+h1, h2, h3{
+    color: blueviolet;
+}
