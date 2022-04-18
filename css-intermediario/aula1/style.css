@@ -1,6 +1,10 @@
 /* Combinadores(combinators): Quando combino classes, id ou tags para aplicar 
 uma única regra */
-
+.exemplo{
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
 .exemplo1 .red{
     color: red;
 }
@@ -9,7 +13,22 @@ uma única regra */
     margin: 50px;
 }
 
-/* Essa regra funciona também para classes que receberão as mesmas regras */
 h1, h2, h3{
+    /* Essa regra funciona também para classes que receberão as mesmas regras */
     color: blueviolet;
+}
+
+.exemplo2 > p{
+    /* Aplica as regras apenas para os <p> que fores filhos da classe exemplo2 */
+    color: blue;
+}
+
+.exemplo3 + p{
+    /* Aplica a regra ao primeiro elemento for irmão do que selecionei */
+    color: orangered;
+}
+
+.exemplo3 ~ p{
+    /* Aplica a regra para todos os irmãos direto da classe que selecionei */
+    color: rgb(13, 83, 6);
 }

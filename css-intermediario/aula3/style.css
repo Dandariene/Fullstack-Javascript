@@ -1,0 +1,16 @@
+ul{
+    background: gray;
+    padding: 30px;
+}
+
+ul li{
+    display: inline; /*Deixa o que block por padrão em inlline*/
+    margin: 20px;
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: red;
+}
+
