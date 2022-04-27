@@ -1,0 +1,29 @@
+.hidden{
+    width: 200px;
+    height: 200px;
+    background: rgb(146, 214, 146);
+    overflow: hidden; 
+}
+
+.scroll{
+    width: 200px;
+    height: 200px;
+    background: green;
+    /* overflow: hidden; Esconde dentro da caixa tudo que sai*/
+    overflow: scroll; /* Esconde mas coloca uma barra para que o usuario possa ver */
+}
+
+.overflow-x{
+    width: 200px;
+    height: 200px;
+    background: rgb(5, 250, 5);
+    overflow: scroll; 
+   overflow-x: hidden;  /* Esconde a barra de rolagem */
+}
+
+.overflow-auto{
+    width: 200px;
+    height: 200px;
+    background: rgb(150, 202, 150);
+    overflow: auto;
+}

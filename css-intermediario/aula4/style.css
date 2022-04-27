@@ -1,0 +1,24 @@
+body{
+    background: url(https://th.bing.com/th/id/R.18e06c6079fc257631bab0a6b0ec2b8d?rik=geIi4llgR%2bVf0w&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2016%2f01%2fSky-bright-sunset-desktop-background-333087-1280x960.jpg&ehk=XC5RGC4XtMi9FWYJMacagWARSdyWna5j0Pm70w4tkjc%3d&risl=&pid=ImgRaw&r=0);
+}
+
+ul{
+    background: gray;
+    padding: 30px;
+    opacity: 0.6;
+}
+
+ul li{
+    display: inline; /*Deixa o que block por padrão em inlline*/
+    margin: 20px;
+    padding: 20px;
+    /* display: none: esconde um determinado elemento removendo ele da tela */
+    /* visibility: hidden oculta um elemento porém a area que ocupa na pagina permanece lá */
+    /* opacity: vai de 0 a 1 sendo 1 a cor sólida e 0 totalmente transparente */
+}
+
+ul li a{
+    text-decoration: none;
+    color: red;
+}
+
