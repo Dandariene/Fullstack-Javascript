@@ -1,0 +1,40 @@
+
+::selection{
+    /* permite que eu deixe a cor do texto e do fundo diferente quando seleciono o mesmo */
+    color: blueviolet;
+    background: pink;
+}
+
+p::first-line {
+    /* altera a primeira linha */
+    color: red;
+}
+
+p::first-letter {
+    /* altera a primeira letra */
+    color: rgb(21, 128, 170);
+    font-size: 40px;
+}
+
+h1::before {
+    /* permite que eu coloque uma imagem antes de um determinado elemento */
+    background: url(https://th.bing.com/th/id/OIP.2CTQVVz7UMDTzX_KYIyk1wHaHa?w=172&h=180&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content: "";
+    margin-right: 15px;
+}
+
+h1::after {
+    /* permite que eu coloque uma imagem depois de um determinado elemento */
+    background: url(https://th.bing.com/th/id/OIP.2CTQVVz7UMDTzX_KYIyk1wHaHa?w=172&h=180&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content: "";
+    margin-left: 15px;
+}
+
