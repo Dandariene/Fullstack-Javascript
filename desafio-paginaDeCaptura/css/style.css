@@ -20,13 +20,70 @@ html, body{
     height: 100%;
 }
 
-h1{
-    text-transform: uppercase ;
+.logo{
+    width: 100px;
+    margin: 15px;
 }
 
+h1{
+    text-transform: uppercase ;
+    font-size: 45px;
+    margin-top: 10px;
+}
 
-form{
+h2{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+h3{
+    margin: 35px 0 20px 0;
+    font-weight: 100;
+}
+
+.inputDados{
+    width: 50%;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 100;
+    border: 0;
+}
+
+.confirmacao{
+    font-weight: 100;
+    width: 50%;
+    border-radius: 6px;
+    font-size: 14.5px;
+    margin-bottom: 8px;
+    font-weight: 100;
+}
+
+button{
+    margin-top: 30px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 100;
+    background:#46bce8;
+    border: 0;
+}
+
+button a{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+}
+
+.container{
     display: block;
+    text-align: center;
+    margin: 50px;
 }
 
 
