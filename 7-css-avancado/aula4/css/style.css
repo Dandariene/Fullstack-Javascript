@@ -1,0 +1,24 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.box{
+    width: 100vw;
+    height: 20vh;
+    background-color: greenyellow;
+}
+
+p{
+    font-size: 2em;
+    /* o em é relativo ao font-size do elemento pai, ex: 2em nesse caso seria equivalente 24px */
+}
+
+/* 
+font-size de unidade rem é equivalente ao que está no root
+
+vw = viewport width
+vh= viewport height
+*/
