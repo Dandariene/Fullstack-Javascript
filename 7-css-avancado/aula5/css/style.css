@@ -8,8 +8,12 @@ body{
     height: 300px;
     background-color: greenyellow;
     transition-duration: 500ms;
+    transition-property: width;
+
+
 }
 
 .box:hover{
+    width: 500px;
     background-color: blue;
 }
