@@ -1,0 +1,53 @@
+
+body{
+    margin: 100px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+
+    animation-name: minhaAnimacao;
+    animation-duration: 1000ms; /*Preciso determinar qual a duração da minha animação*/
+    animation-iteration-count: infinite; /*Coloco quantas vezes quero que a animação aconteça, posso colocatr em nº mesmo*/
+    animation-delay: 5000ms;/*Determina em quanto tempo quero atrasar a animação*/
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-direction: reverse;
+}
+
+/*Posso colocar animações em css utilizando a opção abaixo e passando o nome dessa animação no local onde quero que a animação aconteça utilizando a propriedade: animation-name: nome que dei para minha animação*/
+
+/*
+
+Posso usar o @Keyframes como no exemplo abaixo e também usar em %
+
+@keyframes minhaAnimacao{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: red;
+        border-radius: 50%;
+        transform: rotate(360deg);
+    }
+
+} */
+
+@keyframes minhaAnimacao{
+    0%{
+        background-color: black;
+    }
+
+    50%{
+        background-color: white;
+        border: 10px solid blue;
+    }
+
+    100%{
+        border: px solid blue;
+        background-color: red;
+        transform: rotate(360deg);
+    }
+
+}
