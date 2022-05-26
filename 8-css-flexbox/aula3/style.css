@@ -1,0 +1,35 @@
+.container{
+    background-color: rgb(233, 169, 146);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+   align-items: center;  /* alinha na horizontal */
+    align-content: center;/* alinha na vertical */
+
+    height: 500px;
+
+}
+
+.caixa{
+    width: 80px;
+    height: 80px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
