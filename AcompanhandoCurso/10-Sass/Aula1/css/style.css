@@ -1,0 +1,49 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.container .box {
+  padding: 20px;
+  width: 30%;
+  color: black;
+  background-color: aliceblue;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.container .box.active {
+  /*utilizo o & para os elementos irmãos*/
+  background-color: blueviolet;
+}
+.container .box h2 {
+  font-size: 22px;
+  margin: 10px 20px 30px 20px;
+}
+.container .box p {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.container .box p.hidden {
+  display: none;
+}
+.container .box a {
+  color: red;
+}
+.container .box a:hover {
+  /*Uso o & também para fazer o hover e para os pseudoseletores*/
+  color: aqua;
+}
+.container .box a:hover + p.hidden {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
