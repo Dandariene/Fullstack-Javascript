@@ -6,7 +6,16 @@
 }
 
 body {
-  background-color: black;
+  background-color: var(black);
+  font-family: sans-serif;
+}
+
+.container .box .alert, .container .box .error, .container .box .success {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px black;
   color: white;
 }
 
@@ -17,8 +26,8 @@ body {
 .container .box {
   padding: 20px;
   width: 30%;
-  color: black;
-  background-color: aliceblue;
+  color: white;
+  background-color: black;
   border-radius: 6px;
   margin-top: 20px;
 }
@@ -37,6 +46,11 @@ body {
 .container .box p.hidden {
   display: none;
 }
+.container .box ul {
+  margin: 20px;
+  padding: 20px;
+  list-style: square;
+}
 .container .box a {
   color: red;
 }
@@ -46,4 +60,14 @@ body {
 }
 .container .box a:hover + p.hidden {
   display: block;
-}/*# sourceMappingURL=style.css.map */
+}
+.container .box .success {
+  background-color: green;
+}
+.container .box .error {
+  background-color: red;
+}
+.container .box .alert {
+  background-color: yellow;
+  color: black;
+}/*# sourceMappingURL=styles.css.map */

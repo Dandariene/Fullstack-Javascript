@@ -1,7 +1,10 @@
-@import 'variable';
+@import 'variables';
 
-@import 'base';
+@import 'bases';
 
+@import 'mixins';
+
+@import 'extends';
 
 .container{
     display: flex;
@@ -10,8 +13,8 @@
     .box{
         padding: 20px;
         width: 30%;
-        color: $color-primary;
-        background-color: aliceblue;
+        color: white;
+        background-color: $color-primary;
         border-radius: 6px;
         margin-top: 20px;
 
@@ -33,6 +36,10 @@
             }
         }
 
+        ul{
+            @include reset-list(20px, 20px, square);
+        }
+
         a{
             color: red;
 
@@ -43,6 +50,21 @@
                     display: block;
                 }
             }
+        }
+
+        .success{
+            @extend %box-alert;
+            @include bg-effect(success);
+        }
+
+        .error{
+            @extend %box-alert;
+            @include bg-effect(error);
+        }
+
+        .alert{
+            @extend %box-alert;
+            @include bg-effect(alert);
         }
     }
 }
