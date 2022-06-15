@@ -1,16 +1,7 @@
-$color-primary:black;
+@import 'variable';
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import 'base';
 
-body{
-    background-color: black;
-    color: white;
-
-}
 
 .container{
     display: flex;
@@ -34,7 +25,7 @@ body{
         }
 
         p{
-            font-family: sans-serif;
+            font-family: $font-primary;
             font-size: 18px;
 
             &.hidden{
